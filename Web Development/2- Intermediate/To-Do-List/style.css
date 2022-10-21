@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: #111;
+    background-image: url("bc.jpg");
+    background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+@media (min-width: 1025px) {
+    body {
+	    background-image: url(bc.jpg);
+   }
+}
+h1{
+    font-size:40px ;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fd83dd;
+    text-shadow: #fd83dd 1px 0 10px;
+    }
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input_div .input{
+    padding: 10px 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color:#fff;
+    width: 450px;
+    font-size: 25px;
+    margin: 2px;
+    border-radius: 25px;
+}
+
+.addButton{
+    height: 50px;
+    width:50px;
+    outline:none;
+    border:none;
+    background-color: #fff;
+    color:rgb(17, 0, 255);
+    margin-left:25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.addButton:hover{
+	opacity: 0.7;
+    color:darkblue;
+    background-color:rgb(165, 165, 245);
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+
+.item_input{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 350px;
+    font-size:1.4rem;
+
+}
+.editButton{
+    font-size: 20px;
+    margin: 0 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: none;
+    outline: none;
+    color: #04fbfb;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.removeButton{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: none;
+    outline: none;
+    color:red;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+.separator{
+    display: flex;
+    align-items: center;
+}
+
+.Line{
+    display: flex;
+    padding: 0 2rem;
+}
+
+.separator .Line{
+    height: 1px;
+    flex: 1;
+    background-color: #000;
+  }
+
+.separator h3{
+    padding: 0 0.2rem;
+}
+
+
+.Blue{ 
+    color: #0A66C2;
+} 
+
+

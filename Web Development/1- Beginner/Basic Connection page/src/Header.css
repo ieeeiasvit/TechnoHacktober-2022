@@ -1,0 +1,45 @@
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 20px solid #203341;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.header_left{
+    display: flex;
+}
+
+.header_left > img {
+    object-fit: contain;
+    height :40px;
+    margin-right: 10px;
+}
+
+.header_search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: grey;
+    background-color: #eef3f8;
+
+    cursor: pointer;
+}
+.header_search:hover{
+    color: black;
+}
+
+.header_search > input{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+

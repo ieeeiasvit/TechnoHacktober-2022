@@ -1,0 +1,72 @@
+.Card{
+    border:none;
+    width: 300px;
+    height:400px;
+    background-color: #E0E9F2;
+    justify-content: center;
+    margin:10px;
+    border-radius:20px ;
+    
+}
+
+.Ao{
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 40px;    
+}
+
+.names{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.Connections{
+    background-color: gold;
+    padding:20px;
+    width:50%;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.number{
+    text-align: center;
+    
+}
+.connect{
+    text-align:center ;
+    border-radius: 11px;
+    border:none;
+    border-top-width: 2\0px ;
+    background: #0A66C2;
+    padding: 8px 0;
+    width: 50%;
+    margin: 10px auto;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.Connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect:hover{
+    background-color: #0859aa;
+}
+
+.Cross{
+    color: #fff;
+    padding-top: 5px;
+    float: right;
+    width:15%;
+
+}
+.Cross:hover{
+    color: rgb(202, 200, 200);
+}
+

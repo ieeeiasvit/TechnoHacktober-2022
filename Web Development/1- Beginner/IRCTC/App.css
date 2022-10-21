@@ -1,0 +1,27 @@
+.App {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('./Assets/Frame\ 4.png');
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.as {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+}
+.sound-wave {
+	width: 80%;
+	opacity: 1;
+	transition: all 1s;
+}
+.ded {
+	opacity: 0;
+	transition: all 1s;
+}

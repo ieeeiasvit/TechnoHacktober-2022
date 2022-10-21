@@ -1,0 +1,43 @@
+.Bar{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.received{
+    text-align: center;
+    border-radius: 11px;
+    border:none;
+    background: #0A66C2;
+    padding: 10px 30px;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.received:hover{
+    background: #085caf;
+}
+
+.sent{
+    border: 0.1px;
+    border-radius: 11px;
+    border-color: #F7F7F7;
+    background: #F7F7F7;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #0A66C2;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.sent:hover{
+    background-color: #cccccc;
+}
+
+.rec{
+    margin:10px;
+}

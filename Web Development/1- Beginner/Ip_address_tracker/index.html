@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="home.css" media="screen"/>
+  <script src="home.js"></script>
+  <title>IP Address Tracker</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <h1>IP Address Tracker</h1>
+  <div id="input">
+    <input id="inputIp" type="search" placeholder="Search for any IP address or domain"><button onclick="track2()">></button>
+  </div>
+  <div id="output">
+    <div class="out">IP Address<div class="details" id="ipAddress"></div></div>
+    <div class="line"></div>
+    <div class="out">Location<div class="details" id="location"></div></div>
+    <div class="line"></div>
+    <div class="out">Timezone<div class="details" id="timezone"></div></div>
+    <div class="line"></div>
+    <div class="out">ISP<div class="details" id="isp"></div></div>
+  </div>
+  <div id="mapid">
+    
+  </div>
+  
+</body>
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+</div>
+</html>

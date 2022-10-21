@@ -1,0 +1,116 @@
+body{
+    display: grid;
+    grid-template-columns: 15% 20% 30% 20% 15%;
+    grid-template-rows: 50px 65px 100px 100px 420px;
+    background-color: #648DE5;
+}
+h1{
+    color: #fffcf2;
+    text-align: center;
+    font-size: 25px;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    align-self: center;
+}
+#input{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: center;
+}
+input{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 30px;
+    padding: 3px 10px;
+}
+button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 30px;
+    padding: 3px 10px;
+    color: #fffcf2;
+    background-color: #4B4237;
+}
+#output{
+    grid-row: 3/5;
+    grid-column: 2/5;
+    background-color: #fffcf2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #A59F95;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 120px;
+    align-self: center;
+    z-index: 2;
+}
+#mapid{
+    z-index: 1;
+    grid-row: 4/6;
+    grid-column: 1/6;
+    background-color: #78AB46;
+}
+.line{
+    width: 2px;
+    min-height: 100px;
+    background-color: #D9D7D3;
+}
+.details{
+    font-size: 25px;
+    font-weight: 900;
+    color: #4B4237;
+}
+.attribution{
+    position: absolute;
+    bottom: 0%;
+}
+@media (max-width: 6in){
+    body{
+        grid-template-columns: 10% 15% 50% 15% 10%;
+        grid-template-rows: 45px 60px 115px 115px 395px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #input{
+        grid-column: 2/6;
+    }
+    input{
+        font-size: 20px;
+        transform: translateX(-15px);
+    }
+    button{
+        font-size: 20px;
+        transform: translateX(-15px);
+    }
+    #output{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 10px;
+        padding-top: 0px;
+        min-height: 180px;
+    }
+    .line{
+        display: none;
+    }
+    .details{
+        justify-self: center;
+        align-self: center;
+        font-size: 15px;
+        font-weight: 700;
+        color: #4B4237;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .out{
+        margin-top: 5px;
+        align-self: center;
+        text-align: center;
+    }
+}

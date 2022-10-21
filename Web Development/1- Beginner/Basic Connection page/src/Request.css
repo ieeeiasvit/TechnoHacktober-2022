@@ -1,0 +1,74 @@
+.profile{
+    display: flex;
+    padding:10px;
+}
+img{
+    width: 100px;
+    
+}
+
+.box{
+    height: 120px;
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+}
+
+.Description
+{
+    padding-top: 7px;
+    padding-left: 15px;
+    width: 150px;
+}
+#Blue-color{
+    color: #0A66C2;
+}
+
+.Bar2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 0px;
+    width: 70%;
+}
+.Accept{
+    text-align:center ;
+    border-radius: 11px;
+    border:none;
+    border-top-width: 20px ;
+    background: #0A66C2;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+.Decline{
+    border: 0.1px;
+    text-align: center;
+    outline-style: solid;
+    background: #fff;
+    border-radius: 11px;
+    border-bottom-width: 20px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;;
+    padding-bottom: 4px;
+    color: #0A66C2;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.Accept:hover{
+    background-color: #064380;
+}
+
+.Decline:hover{
+    background: rgb(189, 187, 187);
+}
+
+.acc{
+    margin-right: 20px;
+}

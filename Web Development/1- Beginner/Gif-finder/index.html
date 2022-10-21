@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSC task 1</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="gif_jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <!-- Search -->
+    <div id="SearchDiv">
+        <input type="text" name="" id="search" placeholder="Search a GIF">
+        <button id="btnSearch">Go</button>
+    </div>
+      <!-- CONTENT -->
+      <h1 id="SearchHeading" style="color: #fc0;"></h1>
+    <div class="grid-container1" id="imageWrapper">
+    </div>
+    <div id="loadMore" style="display: none; text-align: center;">
+        <button id="loadMoreSearch" >Load More</button>
+    </div>
+    <h1 id="TrendingHeading" style="text-align: center;color: #fc0;">Trending Gifs</h1>
+    <div class="grid-container2" id="trendingGif">
+    </div>   
+        <div  style="text-align: center;">
+            <button id="loadMoreTrending">Load More</button>
+        </div> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+offset:100,
+delay:0,
+duration: 1700
+});
+</script>
+    </main>
+  </body>
+</html>

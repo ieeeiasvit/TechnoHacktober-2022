@@ -1,0 +1,54 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name": "Harish Kumar",
+            "workingPlace":"Antino pvt. Ltd."
+        },
+        {
+            "id":2,
+            "name": "Anthony",
+            "workingPlace":"Amazon"
+        },
+        {
+            "id":3,
+            "name": "Murli",
+            "workingPlace":"Vistarx"
+        },
+        {
+            "id":4,
+            "name": "Rakshit",
+            "workingPlace":"Facebook"
+        },
+        {
+            "id":5,
+            "name": "Rupa",
+            "workingPlace":"Hillory Clinton"
+        },
+        {
+            "id":6,
+            "name": "Osman",
+            "workingPlace":"IKEA"
+        },
+        {
+            "id":7,
+            "name": "Rupanqshi",
+            "workingPlace":"Wallmart"
+        },
+        {
+            "id":8,
+            "name": "Amal",
+            "workingPlace":"Netflix"
+        },
+        {
+            "id":9,
+            "name": "Joshita",
+            "workingPlace":"Amazon"
+        },
+        {
+            "id":10,
+            "name": "Guari",
+            "workingPlace":"JP Morgan"
+        }
+    ]   
+}
