@@ -28,7 +28,7 @@ Make simple to advanced projects under web development, app development or machi
 
 # Guidelines for this Repository
 
-- This repository is structured into 3 folders- `WebDev` , `AppDev` and `ML`.  Inside each, there are subfolders. 
+- This repository is structured into 4 folders- `WebDev` , `AppDev`, `ML` and `Competitive Programming`.  Inside each, there are subfolders. 
 - The path for adding a file containing the program should be for example- ```Machine Learning/01 Data Visualization/Your_project_folder/Yourfile.extension```.
 - If a folder does not already exist, kindly make a new one.
 - If you face any issue or make a mistake in a `pull request`(PR), IAS team will help you out.
