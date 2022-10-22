@@ -10,7 +10,7 @@ Make simple to advanced projects under web development, app development or machi
 
 # About 
 
-## What is Hacktoberfest 2021?
+## What is Hacktoberfest 2022?
 - Hacktoberfest is a month-long celebration of open source software run by DigitalOcean. 
 
 - During the month of October, everyone is invited to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. It can be done in a variety of [ways](https://hacktoberfest.digitalocean.com/). 
