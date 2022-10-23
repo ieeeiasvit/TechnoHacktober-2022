@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.ejs": "html",
+    "DJKSTRA.C": "cpp"
+  }
+}
