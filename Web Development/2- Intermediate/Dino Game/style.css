@@ -1,0 +1,44 @@
+#points{
+    text-align: center;
+}
+#play{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    background-size: cover;
+    background-image: url("2371.jpg");
+    border: 1px solid black;
+}
+#dino{
+    height: 90px;
+    width: 100px;
+    position: relative;
+    top:310px;
+    background-image: url("unnamed\ \(1\).png");
+    background-size: cover;
+   
+}
+#obstacles{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top:258px;
+    background-image: url("unnamed.png");
+    background-size: cover;
+    left:800px;
+    animation: obstacles 1.33s infinite;
+}
+@keyframes obstacles{
+    0%{left:800px;}
+    100%{left:-50px;}
+}
+
+.jump-animation{
+    animation:jump 0.5s;
+}
+@keyframes jump{
+    0%{top:200px;}
+    50%{top:100px;}
+    75%{top:100px;}
+    100%{top:200px;}
+}
